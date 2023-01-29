@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+}
+.gallery_img {
+  scroll-snap-align: start;
+  margin-bottom: 10px;
+  min-height: 30vh;
+  min-width: 30vh;
+}
+.carousel-height {
+  height: 300px;
+}
+.text-center {
+  text-align: "center";
+}
+.gallery_img1 {
+  border: 0;
+  height: auto;
+  margin: 0;
+  max-width: 75%;
+  padding: 0;
+  width: auto;
+  border: solid;
+}
+.button-add {
+  text-align: right;
+  font-family: cursive;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  margin-right: 10px;
+}
+.column2 {
+  float: right;
+  width: 45%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.carousal-div {
+  align-items: center;
+  justify-content: center;
+}
+.wishlist {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 50%;
+  margin-right: 10px;
+}
